@@ -1,0 +1,94 @@
+a.multiSelect {
+	background: #FFF url(../img/multiselect/dropdown.blue.png) right center no-repeat;
+	border: solid 1px #7F9DB9;/*#BBB NELSON*/
+	padding-right: 20px;
+	position: relative;
+	cursor: default;
+	text-decoration: none;
+	color: black;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+}
+
+a.multiSelect:link, a.multiSelect:visited, a.multiSelect:hover, a.multiSelect:active {
+	color: black;
+	text-decoration: none;
+}
+
+a.multiSelect span
+{
+	margin: 1px 0px 4px 3px;/*1px 0px 1px 3px NELSON*/
+	overflow: hidden;
+	display: -moz-inline-stack;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+a.multiSelect.hover {
+	background-image: url(../img/multiselect/dropdown.blue.hover.png);
+}
+
+/*a.multiSelect.active, 
+a.multiSelect.focus {
+	border: inset 1px #000;
+} Quitado efecto onfocus NELSON*/
+
+a.multiSelect.active {
+	background-image: url(../img/multiselect/dropdown.blue.active.png);
+}
+
+.multiSelectOptions {
+	margin-top: -1px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: solid 1px #7F9DB9; /*#B2B2B2 NELSON*/
+	background: #FFF;
+	padding-bottom: 3px; /* Puesto para evitar scrollbar innecesaria: NELSON */
+}
+
+.multiSelectOptions LABEL {
+	padding: 0px 2px;
+	display: block;
+	white-space: nowrap;
+	/*a�adido para corregir nuestro label principal NELSON */
+	float:none;
+        margin-right: 0px;
+	margin-left: 0px;
+	text-align: left;
+        width: 100%;
+}
+
+.multiSelectOptions LABEL.optGroup
+{
+	font-weight: bold;
+}
+
+.multiSelectOptions .optGroupContainer LABEL
+{
+	padding-left: 0px;
+}
+
+.multiSelectOptions.optGroupHasCheckboxes .optGroupContainer LABEL
+{
+	padding-left: 0px;
+}
+
+.multiSelectOptions input{
+	margin: 2px 4px 1px 3px;
+        padding: 0px 0px 0px 0px;
+        width: 5px;
+}
+
+.multiSelectOptions LABEL.checked {
+	background-color: #dce5f8;
+}
+
+.multiSelectOptions LABEL.selectAll {
+	border-bottom: dotted 1px #CCC;
+}
+
+.multiSelectOptions LABEL.hover {
+	/*background-color: #3399ff;
+	color: white;*/
+}

@@ -1,0 +1,63 @@
+Sistema de configuracion
+ - Configuration
+ - Session
+ - ACL List
+- formularios
+- Persistencia datos
+------------------------------
+Nette, symfony
+
+-----------------------------------------------------
+Mejorar Kernel ( desmontar, moverlo y ponerlo al gusto )
+
+
+
+Plantillas
+ Mejorar sistema de plantillas
+
+#generar urls
+
+
+
+
+App_Registry(app) mirar Zend_Registry
+-----------------------
+Session
+Templates
+loader
+configLoader
+Routes
+FileMAnager
+
+Controller
+----------------------
+session
+templates (app, meter funciones(generateurl))
+
+
+Mejorar
+El sistema de archivos, subir, borrar etcx
+
+
+Ideas
+rescatar utilidades de Codeigniter 3.
+
+--------------------------------------------------------
+Clases importantes 
+AppLoader
+AppConfig
+AppSession
+
+Impotar alertas y paginator
+
+
+-----------------------------------------------------------
+Mejorar clase Bootstrap  configuraciones
+Logger 
+Error log (en errores)
+Mejorar sessiones (en base de datos)
+Meter la session en un objeto
+Crear los paquetes loader instancia
+congiguration  tomar configuraciones
+App
+

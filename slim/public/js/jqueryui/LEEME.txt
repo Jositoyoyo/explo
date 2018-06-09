@@ -1,0 +1,1 @@
+la carpeta development-bundle se puede quitar en produccion.. no es necesaria. --> kitada, esta en old_js_kitar
